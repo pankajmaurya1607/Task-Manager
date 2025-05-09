@@ -8,11 +8,11 @@ interface Props {
 
 const GlobalStyleProvider = ({ children }: Props) => {
   return (
-    <GlobalStyle>{children}</GlobalStyle>
+    <GlobalStyles>{children}</GlobalStyles>
   )
 }
 
-const GlobalStyle = styled.div`
+const GlobalStyles = styled.div`
     padding: 2.5rem;
     display: flex;
     gap: 2.5rem;
