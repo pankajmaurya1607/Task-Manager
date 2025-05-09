@@ -1,45 +1,84 @@
-# Task Manager
+# 🌟 Task Manager
 
-Task Manager is a web application designed to help you organize your tasks efficiently. Whether you're managing personal projects, team assignments, or daily to-do lists, Task Manager provides a user-friendly interface and robust features to streamline your workflow.
+**Task Manager** is a modern web application designed to help you organize your tasks efficiently. Whether you're managing personal projects, team assignments, or daily to-do lists, Task Manager provides a user-friendly interface and robust features to streamline your workflow.
 
-## Getting Started
+---
 
-To get started with Task Manager, follow these steps:
+## 🚀 Live Demo
 
-1. Clone the repository to your local machine.
-2. Install the necessary dependencies using `npm install`.
-3. Start the development server using `npm run dev`.
-4. Access the application by navigating to `http://localhost:3000` in your web browser.
+👉 [Visit Task Manager Live](https://task-manager-rho-steel.vercel.app)
 
-## Features
+---
+
+## 📖 Features
 
 Task Manager comes packed with a range of features to enhance your task management experience:
 
-- Task Creation and Editing: Create new tasks, edit existing tasks, and mark tasks as completed.
-- Task Filtering and Sorting: Easily filter and sort tasks based on completed and incompleted.
-- User Authentication: Secure user authentication system ensures privacy and data integrity.
-- Customization: Customize task attributes, categories, and labels to fit your workflow preferences.
-- Responsive Design: Enjoy a seamless user experience across devices with a responsive design optimized for desktop, tablet, and mobile platforms.
+- ✅ **Task Creation and Editing**: Create new tasks, edit existing ones, and mark tasks as completed.
+- 🔍 **Task Filtering and Sorting**: Easily filter and sort tasks based on their status (completed or incomplete).
+- 🔒 **User Authentication**: Secure user authentication system ensures privacy and data integrity.
+- 🎨 **Customization**: Customize task attributes, categories, and labels to fit your workflow preferences.
+- 📱 **Responsive Design**: Enjoy a seamless user experience across devices with a responsive design optimized for desktop, tablet, and mobile platforms.
 
+---
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 Task Manager is built using the following technologies:
 
-- Frontend: HTML, CSS, JavaScript, React.js
-- Backend: Node.js, Express.js
-- Database: MongoDB
-- User Authentication: Clerk Authentication (using @clerk/nextjs)
-- HTTP Client: Axios
-- Date/Time Management: Moment.js
-- Next.js Toploader
-- Prisma ORM for database interaction
-- React Hot Toast for notifications
-- Styled Components for styling
-- Development Tools: TypeScript, Tailwind CSS, PostCSS, Autoprefixer
+### Frontend
+- **React.js**: For building the user interface.
+- **Styled Components**: For styling the application.
+- **Tailwind CSS**: For utility-first CSS styling.
+- **React Hot Toast**: For notifications.
+- **Next.js Toploader**: For loading indicators.
 
-## Contributing
+### Backend
+- **Node.js**: For server-side logic.
+- **Express.js**: For building RESTful APIs.
+- **Prisma ORM**: For database interaction.
 
-Contributions to Task Manager are welcome! Whether you're a frontend developer, backend engineer, UI/UX designer, or testing enthusiast, there are various ways to contribute. To contribute, fork the repository, make your changes, and submit a pull request with a detailed description of your changes.
+### Database
+- **MongoDB**: For storing task data.
 
-Let's work together to make Task Manager even better!
+### Authentication
+- **Clerk Authentication**: Secure user authentication using `@clerk/nextjs`.
+
+### Other Tools
+- **Axios**: For making HTTP requests.
+- **Moment.js**: For date and time management.
+- **TypeScript**: For type safety and better development experience.
+- **PostCSS & Autoprefixer**: For CSS processing.
+
+---
+
+## 🎉 Getting Started
+
+Follow these steps to set up the project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/Task-Manager.git
+   cd Task-Manager
+
+
+2. **Install Dependencies: Install the necessary dependencies using**:
+   ```bash
+   npm install
+
+3. **Set Up Environment Variables**:
+   ```bash
+   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your-clerk-publishable-key
+   CLERK_SECRET_KEY=your-clerk-secret-key
+   DATABASE_URL=your-mongodb-connection-string
+
+4. **Start the Development**:
+   ```bash
+   npm run dev
+
+
+5. **Access the Application**:
+   ```bash
+   http://localhost:3000
+
+---
